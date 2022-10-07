@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod (echo "$(8#$(stat -c%a hello)") olleh
+chmod (echo "$((8#$(stat -c%a hello)))") olleh
