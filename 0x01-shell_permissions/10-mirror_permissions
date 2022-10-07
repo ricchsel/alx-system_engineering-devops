@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod $(stat -c%a hello) olleh
+chmod $($(echo "ibase=8";stat -c%a hello) | bc) olleh
