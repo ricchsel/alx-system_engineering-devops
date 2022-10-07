@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(ls --color=auto)
+ls --color=auto
